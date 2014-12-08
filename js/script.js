@@ -33,12 +33,6 @@ $(document).ready(function(){
           var br = $('<br/>');
           li.append(br);
 
-          var a_1 = $('<a>');
-          a_1.addClass("clubs");
-          a_1.attr("href", "#");
-          a_1.text("Clubs");
-          li.append(a_1); 
-
           var p_1 = $('<p>');
           p_1.text(stuffs.group);
           li.append(p_1);
