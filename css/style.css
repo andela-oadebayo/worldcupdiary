@@ -1,0 +1,136 @@
+/*****************
+  GENERAL
+***************/
+
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src:url("../font/Roboto-Light.ttf");
+}
+
+/*****************
+ HEADER SECTION
+***************/
+header {
+  background-color: #000;
+  height: 50px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+header h3 {
+  padding: 5px 0 0 40px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+/*****************
+ NAVIGATION
+***************/
+
+ul {
+  padding-right: -10px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+ul li {
+  display: inline-block; 
+  padding-right: 20px;
+}
+
+ul li:last-child{
+  padding-right: 20px;
+}
+
+li a{
+  font-family: "Roboto", Arial, sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+li a:hover{
+  text-decoration: underline;
+}
+/*END OF NAVIGATION*/
+
+
+
+#heading{
+  
+  font-size: 1.3em;
+  color: #000;
+  padding-top: 10px;
+  height: 50px;
+  text-align: center;
+}
+
+/*The main display section*/
+#view {
+  position: relative;
+}
+
+#view ul {
+  position: absolute;
+  left: -3%;
+  width: 100%;
+  margin-left: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+#view ul li{
+  padding-left: 10%;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1em;
+}
+
+#view ul li img{
+  margin-bottom: 15px;
+}
+
+#view ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+#view ul div li a:hover {
+  text-decoration: underline;
+  outline: none;
+};
+/*End of the main display section*/
+
+.alignmatch{
+  text-align: center;
+}
+
+li.main_grid{
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 70px;
+}
+
+.resize{
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.resize_grid{
+  margin-bottom: 0px;
+  font-size: 0.8em;
+  text-align: center;
+}
